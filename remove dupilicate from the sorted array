@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a[10], b[10],n,i,j,k=0;
+    cout<<"enter theno of elements an array:";
+    cin>>n;
+    for(i=0;i<n;i++){
+        cout<<"enter elements of array:";
+        cin>>a[i];
+        for(i=0;i<n;i++)
+        {
+            if(a[i]==b[j])
+            break;
+        }
+    if(j==k)
+    {
+        b[k]=a[i];
+        k++;
+       }
+    }
+    cout<<"repeated elements after deletion:";
+    for(i=0;i<k;i++)
+    cout<<b[i]<<"";
+    return 0;
+}
+    
+    
+    output:
+    enter the no of elements in an array : 5 
+    enter element of array: 6
+    enter element of array : 8
+    enter element of array : 6
